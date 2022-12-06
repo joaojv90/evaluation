@@ -1,0 +1,13 @@
+create database evaluationJJ;
+use evaluationJJ;
+
+create table birdCategory(
+id int not null auto_increment primary key,
+name varchar (20)
+);
+
+insert into birdCategory (name)
+values ("acuáticas"),
+("de rapiña"),
+("cantoras"),
+("no voladoras");

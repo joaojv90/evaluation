@@ -11,7 +11,7 @@ import ec.edu.itsqmet.evaluation.singleton.BirdSingleton;
 class EvaluationApplicationTests {
 	
 	@Autowired
-	private IBirdRepository birdRepository
+	private IBirdRepository birdRepository;
 
 	@Test
 	void contextLoads() {
