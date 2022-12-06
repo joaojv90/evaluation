@@ -16,9 +16,13 @@ class EvaluationApplicationTests {
 	@Test
 	void contextLoads() {
 		
-		for(int i=0; i <= 5; i++) {
-			System.out.println(BirdSingleton.getTotalBird(birdRepository));
-		}
+//		for(int i=0; i <= 5; i++) {
+//			System.out.println(BirdSingleton.getTotalBird(birdRepository));
+//		}
+		
+		System.out.println("instancia 1" + BirdSingleton.getInstance());
+		System.out.println("instancia 2" + BirdSingleton.getInstance());
+		System.out.println("instancia 3" + BirdSingleton.getInstance());
 		
 	}
 
